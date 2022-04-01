@@ -29,7 +29,6 @@ export const resolvers = {
 
     Mutation: {
         addProductToCart: async(_, args) => {
-
             const cart = await Cart.find({ product: args })
             console.log(cart)
         }

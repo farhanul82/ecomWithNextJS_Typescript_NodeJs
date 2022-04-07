@@ -8,7 +8,7 @@ const CartSchema = mongoose.Schema({
         subTotal: { type: Number }
     }],
     total: { type: Number },
-    complete: { type: Boolean }
+    complete: { type: Boolean, default: false }
 }, {
     timestamps: true,
 })

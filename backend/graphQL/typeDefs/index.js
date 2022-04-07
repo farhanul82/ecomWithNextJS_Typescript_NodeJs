@@ -69,20 +69,24 @@ export const typeDefs = gql `
 
 
   input productInput {
+    userId: String
     _id: String
     phone_images: [String]
     phone_title: String
     phone_price: String
+    context:String
   }
 
   type Query {
     getALlUsers: [User]
-
+    
     getAllProducts: [Products]
     getSingleProduct(id:String) : Products
+    getCartProduct(id:String) : Cart
   }
 
   type Mutation {
     addProductToCart(product: productInput): Cart
+    # deleteCartProduct(id:String)
   }
 `;

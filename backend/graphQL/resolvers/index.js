@@ -6,7 +6,45 @@ export const resolvers = {
     Query: {
         getAllProducts: async() => {
             try {
-                const products = await Product.find();
+                const products = await Product.find({});
+                return products;
+            } catch (error) {
+                throw error;
+            }
+        },
+
+
+        filterProducts: async(_, args) => {
+            console.log('prod', args);
+            try {
+                const query = {};
+                if(args.display.length !==0){
+                    query.display = {$in : args.display}
+                }
+
+                if(args.camera.length !==0){
+                    query.camera = {$in : args.camera}
+                }
+
+                if(args.selfieCamera.length !==0){
+                    query.selfieCamera = {$in : args.selfieCamera}
+                }
+
+                if(args.storage.length !==0){
+                    query.storage = {$in : args.storage}
+                }
+
+                if(args.sensor.length !==0){
+                    query.storage = {$in : args.sensor}
+                }
+
+                if(args.newPhone !== '' && args.newPhone === 'Yes'){
+                    query.new_phone = true
+                }
+
+                console.log(query)
+                const products = await Product.find(query);
+                console.log(products.length)
                 return products;
             } catch (error) {
                 throw error;

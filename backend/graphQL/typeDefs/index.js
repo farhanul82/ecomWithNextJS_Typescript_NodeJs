@@ -1,6 +1,6 @@
 import { gql } from "apollo-server-express";
 
-export const typeDefs = gql`
+export const typeDefs = gql `
   type User {
     name: String
     email: String
@@ -80,25 +80,30 @@ export const typeDefs = gql`
     maxValue: String
   }
 
+
   type Query {
     getALlUsers: [User]
 
     getAllProducts: [Products]
+
     getSingleProduct(id: String): Products
+
     getCartProduct(id: String): Cart
-    filterProduct(
-      display: [String]
-      camera: [String]
-      selfieCamera: [String]
-      ram: rangeValue
-      storage: rangeValue
-      size: rangeValue
-      price: rangeValue
-      battery: rangeValue
-      sensor: [String]
-      newPhone: [String]
-      officialWarranty: [String]
-    ): [Products]
+
+    filterProducts(
+      brand: String,
+    display: [String],
+    camera: [String],
+    selfieCamera: [String],
+    ram: rangeValue,
+    storage: [String],
+    size: rangeValue,
+    sensor: [String],
+    price: rangeValue,
+    batteryCapacity: rangeValue,
+    newPhone: String,
+    officialWarranty: String,
+    ):[Products]
   }
 
   type Mutation {

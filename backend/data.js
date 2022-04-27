@@ -16,18 +16,11 @@ const data = [{
         official_warranty: false,
         unofficial_warranty: true,
         no_warranty: false,
-
         gaming: true,
-
-
-
-
-
-
-
         _id: "5f856731f761fe3138d64a9b",
         phone_link: "https://bikroy.com/en/ad/xiaomi-redmi-9-4-64gb-global-new-for-sale-dhaka-17",
         phone_title: "Redmi 9",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi 9",
             released: "2020, June 10",
@@ -46,7 +39,9 @@ const data = [{
             battery: "Li-Po 5020 mAh, non-removable",
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
-        phone_price: 12500,
+        phone_price: 18500,
+
+        battery_capacity: 5020,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -90,6 +85,7 @@ const data = [{
         _id: "5f8590a85f99264944daa604",
         phone_link: "https://gadgetandgear.com/product/oppo-a12",
         phone_title: "Oppo A12",
+        displaySize: 6.22,
         phone_details: {
             model: "Oppo A12",
             released: "2020, April 20",
@@ -109,6 +105,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 10990,
+        battery_capacity: 4230,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -149,6 +146,8 @@ const data = [{
         _id: "5f8591875f99264944daa605",
         phone_link: "https://gadgetandgear.com/product/vivo-y20",
         phone_title: "Vivo Y20",
+        displaySize: 6.51,
+        displaySize: 6.51,
         phone_details: {
             model: "vivo Y20",
             released: "2020, August 28",
@@ -168,6 +167,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, proximity",
         },
         phone_price: 14990,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -204,10 +204,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2020-10-14T06:37:54.123Z",
         more_than_4: false,
         less_than_4: false,
@@ -216,6 +212,8 @@ const data = [{
         _id: "5f86aa6bf078802f881e67e9",
         phone_link: "https://gadgetandgear.com/product/redmi-note-9",
         phone_title: "Redmi Note 9",
+        displaySize: 6.53,
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi Note 9",
             released: "2020, May 12",
@@ -235,6 +233,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 18999,
+        battery_capacity: 5020,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -271,9 +270,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-10-14T06:37:54.123Z",
         more_than_4: true,
@@ -283,6 +280,8 @@ const data = [{
         _id: "5f86acb0f078802f881e67eb",
         phone_link: "https://www.pickaboo.com/samsung-galaxy-m31.html",
         phone_title: "Samsung Galaxy M31",
+        displaySize: 6.4,
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M31",
             released: "2020, March 05",
@@ -302,6 +301,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 20799,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -337,10 +337,6 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
-
-
         added: "2020-10-14T06:37:54.123Z",
         more_than_4: true,
         less_than_4: false,
@@ -349,6 +345,8 @@ const data = [{
         _id: "5f86b81af078802f881e67f1",
         phone_link: "https://www.daraz.com.bd/products/redmi-note-9s-6gb-ram128gb-rom-48mp-ai-quad-camera-667-fhddotdisplay-5020-mah-battery-i133106905-s1054624003.html",
         phone_title: "Redmi Note 9s",
+        displaySize: 6.67,
+        displaySize: 6.67,
         phone_details: {
             model: "Xiaomi Redmi Note 9S",
             released: "2020, April 30",
@@ -368,6 +366,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 24999,
+        battery_capacity: 5020,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -404,9 +403,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-10-14T06:37:54.123Z",
         more_than_4: true,
@@ -416,6 +413,7 @@ const data = [{
         _id: "5f86ebf3f078802f881e67fe",
         phone_link: "https://bikroy.com/en/ad/realme-x2-6-64gb-intact-box-new-for-sale-dhaka",
         phone_title: "Realme X2",
+        displaySize: 6.4,
         phone_details: {
             model: "Realme X2",
             released: "2019, September",
@@ -435,6 +433,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 22490,
+        battery_capacity: 4000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -472,7 +471,6 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
         high_refresh_rate: true,
         display_res_hd: false,
@@ -485,6 +483,7 @@ const data = [{
         _id: "5f86f6caf078802f881e6805",
         phone_link: "https://bikroy.com/en/ad/oneplus-nord-official-new-for-sale-dhaka",
         phone_title: "OnePlus Nord",
+        displaySize: 6.44,
         phone_details: {
             model: "OnePlus Nord",
             released: "2020, August 04",
@@ -504,6 +503,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 36990,
+        battery_capacity: 4115,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -547,6 +547,7 @@ const data = [{
         _id: "5fb109b6015a904e5c89aa52",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-a01-2gb-ram16gb-rom-57-display-13mp-dual-camera-3000-mah-battery-i137952536-s1060710608.html",
         phone_title: "Samsung Galaxy A01",
+        displaySize: 5.7,
         phone_details: {
             model: "Samsung Galaxy A01",
             released: "2020, January",
@@ -566,6 +567,7 @@ const data = [{
             sensors: "Accelerometer, proximity",
         },
         phone_price: 9999,
+        battery_capacity: 3000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -602,8 +604,6 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
         high_refresh_rate: true,
         display_res_hd: false,
 
@@ -615,6 +615,7 @@ const data = [{
         _id: "5fb1132f015a904e5c89aa58",
         phone_link: "https://www.daraz.com.bd/products/poco-x3-nfc-smartphone-6gb-ram128gb-rom-i156936477-s1086996784.html",
         phone_title: "POCO X3 NFC",
+        displaySize: 6.67,
         phone_details: {
             model: "Xiaomi Poco X3 NFC",
             released: "2020, September 08",
@@ -634,6 +635,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 27999,
+        battery_capacity: 5020,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -648,11 +650,7 @@ const data = [{
         __v: 0,
     },
     {
-        speciality: [
-            "Excellent back camera",
-            "Sufficient RAM and Storage",
-            "1080p display",
-        ],
+        speciality: ["Excellent back camera", "Sufficient RAM and Storage", "1080p display"],
         phone_images: [
             "https://res.cloudinary.com/towfiqu/image/upload/fl_progressive:steep/v1605196436/masterdeals_v_2.0/mf9odlenyuotvmz9aczw.jpg",
             "https://res.cloudinary.com/towfiqu/image/upload/fl_progressive:steep/v1605196438/masterdeals_v_2.0/tdlqo4vcakvpjz94bpuy.jpg",
@@ -670,13 +668,12 @@ const data = [{
         moderate_usage: true,
         heavy_usage: false,
 
-
-
         added: "2020-11-15T11:40:40.772Z",
 
         _id: "5fb11834834a773d8847506c",
         phone_link: "https://www.daraz.com.bd/products/nokia-62-smartphone-63-inches-4ram-64gb-rom-16mp-camera-ceramic-black-i121929144-s1041779745.html",
         phone_title: "Nokia 6.2",
+        displaySize: 6.3,
         phone_details: {
             model: "Nokia 6.2",
             released: "2019, October 17",
@@ -696,6 +693,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 20999,
+        battery_capacity: 3500,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -732,9 +730,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-15T11:40:40.772Z",
         more_than_4: true,
@@ -744,6 +740,7 @@ const data = [{
         _id: "5fb11e66834a773d8847506f",
         phone_link: "https://www.daraz.com.bd/products/oppo-f15-smartphone-64inches-8gb-ram-128gb-rom-48mp-camera-i130038518-s1049828854.html",
         phone_title: "Oppo F15",
+        displaySize: 6.4,
         phone_details: {
             model: "Oppo F15",
             released: "2020, January",
@@ -763,6 +760,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 26990,
+        battery_capacity: 4025,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -806,6 +804,7 @@ const data = [{
         _id: "5fb11f76834a773d88475070",
         phone_link: "https://www.daraz.com.bd/products/vivo-y91c-2020-2gb32gb-smartphone-13mp-camera-i127410912-s1047404965.html",
         phone_title: "Vivo Y91C 2020",
+        displaySize: 6.22,
         phone_details: {
             model: "vivo Y91i (India)",
             released: "2019, March",
@@ -825,6 +824,7 @@ const data = [{
             sensors: "Accelerometer, proximity, compass",
         },
         phone_price: 8990,
+        battery_capacity: 4030,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -860,10 +860,6 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
-
-
         added: "2020-11-15T11:40:40.772Z",
         more_than_4: true,
         less_than_4: false,
@@ -872,6 +868,7 @@ const data = [{
         _id: "5fb12024834a773d88475071",
         phone_link: "https://www.daraz.com.bd/products/vivo-y50-8gb128gb-smartphone-i132300036-s1053222099.html",
         phone_title: "Vivo Y50",
+        displaySize: 6.53,
         phone_details: {
             model: "vivo Y50",
             released: "2020, April 12",
@@ -891,6 +888,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 19990,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -931,6 +929,7 @@ const data = [{
         _id: "5fb120f9834a773d88475072",
         phone_link: "https://www.daraz.com.bd/products/vivo-y30-4gb64gb-smartphone-i132806427-s1054016650.html",
         phone_title: "Vivo Y30",
+        displaySize: 6.47,
         phone_details: {
             model: "vivo Y30",
             released: "2020, May 09",
@@ -950,6 +949,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 16990,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -993,6 +993,7 @@ const data = [{
         _id: "5fb122c6834a773d88475074",
         phone_link: "https://www.daraz.com.bd/products/vivo-y11-3gb32gb-smartphone-i127311709-s1047310654.html",
         phone_title: "Vivo Y11",
+        displaySize: 6.35,
         phone_details: {
             model: "vivo Y11 (2019)",
             released: "2019, October",
@@ -1012,6 +1013,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 11990,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1055,6 +1057,7 @@ const data = [{
         _id: "5fb1249c834a773d88475076",
         phone_link: "https://www.daraz.com.bd/products/alcatel-3-smartphone-59-3gb-ram-32gb-rom-i117602142-s1036864307.html",
         phone_title: "Alcatel 3",
+        displaySize: 5.94,
         phone_details: {
             model: "alcatel 3 (2019)",
             released: "2019, Q1",
@@ -1074,6 +1077,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 12999,
+        battery_capacity: 3500,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1114,6 +1118,7 @@ const data = [{
         _id: "5fb124f0834a773d88475077",
         phone_link: "https://www.daraz.com.bd/products/alcatel-3-smartphone-59-4gb-ram-64gb-rom-i117598303-s1036852486.html",
         phone_title: "Alcatel 3",
+        displaySize: 5.94,
         phone_details: {
             model: "alcatel 3 (2019)",
             released: "2019, Q1",
@@ -1133,6 +1138,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 14999,
+        battery_capacity: 3500,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1169,9 +1175,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-15T11:40:40.772Z",
         more_than_4: true,
@@ -1181,6 +1185,7 @@ const data = [{
         _id: "5fb12f04834a773d88475081",
         phone_link: "https://www.pickaboo.com/samsung-galaxy-a51.html",
         phone_title: "Samsung Galaxy A51",
+        displaySize: 6.5,
         phone_details: {
             model: "Samsung Galaxy A51",
             released: "2019, December 16",
@@ -1200,6 +1205,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 26129,
+        battery_capacity: 4000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1240,7 +1246,6 @@ const data = [{
         heavy_usage: false,
         display_amoled: true,
 
-
         added: "2020-11-15T11:40:40.772Z",
         more_than_4: true,
         less_than_4: false,
@@ -1249,6 +1254,7 @@ const data = [{
         _id: "5fb13232834a773d88475083",
         phone_link: "https://www.pickaboo.com/oppo-f17-8gb-128gb.html",
         phone_title: "Oppo F17",
+        displaySize: 6.44,
         phone_details: {
             model: "Oppo F17",
             released: "2020, September 24",
@@ -1268,6 +1274,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 21389,
+        battery_capacity: 4015,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1304,9 +1311,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T05:49:59.568Z",
         more_than_4: true,
@@ -1316,6 +1321,7 @@ const data = [{
         _id: "5fb21409d3eb6d43a0ca1f9f",
         phone_link: "https://www.pickaboo.com/vivo-v20-se.html",
         phone_title: "Vivo V20 SE",
+        displaySize: 6.44,
         phone_details: {
             model: "vivo V20 SE",
             released: "2020, October 13",
@@ -1335,6 +1341,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 24990,
+        battery_capacity: 4100,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1378,6 +1385,7 @@ const data = [{
         _id: "5fb219fdd3eb6d43a0ca1fa4",
         phone_link: "https://www.pickaboo.com/vivo-y11-2019.html",
         phone_title: "Vivo Y11",
+        displaySize: 6.35,
         phone_details: {
             model: "vivo Y11 (2019)",
             released: "2019, October",
@@ -1397,6 +1405,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 11990,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1433,9 +1442,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
@@ -1445,6 +1452,7 @@ const data = [{
         _id: "5fb2305efe770a09a070197e",
         phone_link: "https://gadgetandgear.com/product/galaxy-m31",
         phone_title: "Samsung Galaxy M31",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M31",
             released: "2020, March 05",
@@ -1464,6 +1472,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 21999,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1503,7 +1512,6 @@ const data = [{
         heavy_usage: false,
         display_amoled: true,
 
-
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
         less_than_4: false,
@@ -1512,6 +1520,7 @@ const data = [{
         _id: "5fb230ccfe770a09a070197f",
         phone_link: "https://gadgetandgear.com/product/galaxy-a51",
         phone_title: "Samsung Galaxy A51",
+        displaySize: 6.5,
         phone_details: {
             model: "Samsung Galaxy A51",
             released: "2019, December 16",
@@ -1531,6 +1540,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 27499,
+        battery_capacity: 4000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1567,15 +1577,14 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
 
         _id: "5fb2316dfe770a09a0701980",
         phone_link: "https://gadgetandgear.com/product/galaxy-m21",
         phone_title: "Samsung Galaxy M21",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M21",
             released: "2020, March 23",
@@ -1595,6 +1604,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 17999,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1631,9 +1641,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
@@ -1643,6 +1651,7 @@ const data = [{
         _id: "5fb2320ffe770a09a0701981",
         phone_link: "https://gadgetandgear.com/product/galaxy-a31",
         phone_title: "Samsung Galaxy A31",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy A31",
             released: "2020, April 27",
@@ -1662,6 +1671,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 23999,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1706,6 +1716,7 @@ const data = [{
         _id: "5fb23305fe770a09a0701984",
         phone_link: "https://gadgetandgear.com/product/galaxy-m01-core",
         phone_title: "Samsung Galaxy M01 Core",
+        displaySize: 5.3,
         phone_details: {
             model: "Samsung Galaxy M01 Core",
             released: "2020, July 29",
@@ -1725,6 +1736,7 @@ const data = [{
             sensors: "Accelerometer",
         },
         phone_price: 6299,
+        battery_capacity: 3000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1768,6 +1780,7 @@ const data = [{
         _id: "5fb23375fe770a09a0701986",
         phone_link: "https://gadgetandgear.com/product/galaxy-m01",
         phone_title: "Samsung Galaxy M01",
+        displaySize: 5.7,
         phone_details: {
             model: "Samsung Galaxy M01",
             released: "2020, June 02",
@@ -1787,6 +1800,7 @@ const data = [{
             sensors: "Accelerometer, proximity",
         },
         phone_price: 11499,
+        battery_capacity: 4000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1830,6 +1844,7 @@ const data = [{
         _id: "5fb233f0fe770a09a0701988",
         phone_link: "https://gadgetandgear.com/product/galaxy-m11",
         phone_title: "Samsung Galaxy M11",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M11",
             released: "2020, May 4",
@@ -1849,6 +1864,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity",
         },
         phone_price: 13999,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1884,10 +1900,6 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
-
-
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
         less_than_4: false,
@@ -1896,6 +1908,7 @@ const data = [{
         _id: "5fb234b7fe770a09a0701989",
         phone_link: "https://gadgetandgear.com/product/huawei-nova-7i",
         phone_title: "Huawei Nova 7i",
+        displaySize: 6.4,
         phone_details: {
             model: "Huawei nova 7i",
             released: "2020, February 14",
@@ -1915,6 +1928,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, proximity, compass",
         },
         phone_price: 29999,
+        battery_capacity: 4200,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -1955,6 +1969,7 @@ const data = [{
         _id: "5fb23952fe770a09a070198b",
         phone_link: "https://gadgetandgear.com/product/poco-c3",
         phone_title: "Poco C3",
+        displaySize: 6.43,
         phone_details: {
             model: "Xiaomi Poco C3",
             released: "2020, October 16",
@@ -1974,6 +1989,7 @@ const data = [{
             sensors: "Accelerometer, proximity",
         },
         phone_price: 12999,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2010,9 +2026,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
@@ -2022,6 +2036,7 @@ const data = [{
         _id: "5fb23b03fe770a09a070198c",
         phone_link: "https://gadgetandgear.com/product/re-oppo-f17",
         phone_title: "Oppo F17",
+        displaySize: 6.44,
         phone_details: {
             model: "Oppo F17",
             released: "2020, September 24",
@@ -2041,6 +2056,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 21990,
+        battery_capacity: 4015,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2084,6 +2100,7 @@ const data = [{
         _id: "5fb23b92fe770a09a070198d",
         phone_link: "https://gadgetandgear.com/product/oppo-a31",
         phone_title: "Oppo A31",
+        displaySize: 6.5,
         phone_details: {
             model: "Oppo A31",
             released: "2020, February 14",
@@ -2103,6 +2120,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 16990,
+        battery_capacity: 4200,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2139,9 +2157,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
@@ -2151,6 +2167,7 @@ const data = [{
         _id: "5fb23c09fe770a09a070198e",
         phone_link: "https://gadgetandgear.com/product/oppo-f17-pro",
         phone_title: "Oppo F17 Pro",
+        displaySize: 6.43,
         phone_details: {
             model: "Oppo F17 Pro",
             released: "2020, September 07",
@@ -2170,6 +2187,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 26990,
+        battery_capacity: 4015,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2217,6 +2235,7 @@ const data = [{
         _id: "5fb23c70fe770a09a070198f",
         phone_link: "https://gadgetandgear.com/product/oppo-a33",
         phone_title: "Oppo A33",
+        displaySize: 6.5,
         phone_details: {
             model: "Oppo A33 (2020)",
             released: "2020, October 01",
@@ -2236,6 +2255,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 13990,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2272,9 +2292,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
@@ -2284,6 +2302,7 @@ const data = [{
         _id: "5fb2585cfe770a09a0701993",
         phone_link: "https://gadgetandgear.com/product/vivo-v20",
         phone_title: "Vivo V20",
+        displaySize: 6.44,
         phone_details: {
             model: "vivo V20",
             released: "2020, October 19",
@@ -2303,6 +2322,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 32990,
+        battery_capacity: 4000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2339,9 +2359,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
@@ -2351,6 +2369,7 @@ const data = [{
         _id: "5fb258dafe770a09a0701995",
         phone_link: "https://gadgetandgear.com/product/vivo-v19",
         phone_title: "Vivo V19",
+        displaySize: 6.44,
         phone_details: {
             model: "vivo V19",
             released: "2020, April 29",
@@ -2370,6 +2389,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 35990,
+        battery_capacity: 4500,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2406,9 +2426,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
@@ -2418,6 +2436,7 @@ const data = [{
         _id: "5fb2598efe770a09a0701996",
         phone_link: "https://gadgetandgear.com/product/vivo-s1-pro",
         phone_title: "Vivo S1 Pro",
+        displaySize: 6.38,
         phone_details: {
             model: "vivo S1 Pro",
             released: "2019, November",
@@ -2437,6 +2456,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 24990,
+        battery_capacity: 4500,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2472,10 +2492,6 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
-
-
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
         less_than_4: false,
@@ -2484,6 +2500,7 @@ const data = [{
         _id: "5fb25a30fe770a09a0701997",
         phone_link: "https://gadgetandgear.com/product/vivo-y50",
         phone_title: "Vivo Y50",
+        displaySize: 6.53,
         phone_details: {
             model: "vivo Y50",
             released: "2020, April 12",
@@ -2503,6 +2520,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 19990,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2543,6 +2561,7 @@ const data = [{
         _id: "5fb25ab1fe770a09a0701998",
         phone_link: "https://gadgetandgear.com/product/vivo-y30",
         phone_title: "Vivo Y30",
+        displaySize: 6.47,
         phone_details: {
             model: "vivo Y30",
             released: "2020, May 09",
@@ -2563,6 +2582,7 @@ const data = [{
         },
         phone_price: 16990,
         _budget: "Mid Budget",
+        battery_capacity: 5000,
         ad_type: "Business",
         ad_category: "E-commerce",
         ad_priority: "Normal",
@@ -2605,6 +2625,7 @@ const data = [{
         _id: "5fb25b2dfe770a09a0701999",
         phone_link: "https://gadgetandgear.com/product/vivo-y11",
         phone_title: "Vivo Y11",
+        displaySize: 6.35,
         phone_details: {
             model: "vivo Y11 (2019)",
             released: "2019, October",
@@ -2624,6 +2645,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 11990,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2668,6 +2690,7 @@ const data = [{
         _id: "5fb25bb3fe770a09a070199a",
         phone_link: "https://gadgetandgear.com/product/vivo-y91c-2020",
         phone_title: "Vivo Y91c",
+        displaySize: 6.22,
         phone_details: {
             model: "vivo Y91i (India)",
             released: "2019, March",
@@ -2687,6 +2710,7 @@ const data = [{
             sensors: "Accelerometer, proximity, compass",
         },
         phone_price: 8990,
+        battery_capacity: 4030,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2723,9 +2747,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
@@ -2735,6 +2757,7 @@ const data = [{
         _id: "5fb25cb4fe770a09a070199b",
         phone_link: "https://gadgetandgear.com/product/vivo-v20-se",
         phone_title: "Vivo V20 SE",
+        displaySize: 6.44,
         phone_details: {
             model: "vivo V20 SE",
             released: "2020, October 13",
@@ -2754,6 +2777,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 26990,
+        battery_capacity: 4100,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2790,9 +2814,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-11-16T07:08:16.456Z",
         more_than_4: true,
@@ -2802,6 +2824,7 @@ const data = [{
         _id: "5fb25e3efe770a09a070199d",
         phone_link: "https://gadgetandgear.com/product/realme-7-pro",
         phone_title: "Realme 7 Pro",
+        displaySize: 6.4,
         phone_details: {
             model: "Realme 7 Pro",
             released: "2020, September 14",
@@ -2821,6 +2844,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 27990,
+        battery_capacity: 4500,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2864,6 +2888,7 @@ const data = [{
         _id: "5fb25f09fe770a09a070199f",
         phone_link: "https://gadgetandgear.com/product/realme-c12",
         phone_title: "Realme C12",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C12",
             released: "2020, August 14",
@@ -2883,6 +2908,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 10990,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -2917,15 +2943,12 @@ const data = [{
 
         gaming: true,
 
-
-
-
-
         added: "2020-11-17T07:05:28.847Z",
 
         _id: "5fb38194fe2a194f244a5e4f",
         phone_link: "https://bikroy.com/en/ad/xiaomi-redmi-9-4-64gb-intact-new-for-sale-dhaka-35",
         phone_title: "Redmi 9",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi 9",
             released: "2020, June 10",
@@ -2945,6 +2968,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 11990,
+        battery_capacity: 5020,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -2981,9 +3005,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2020-12-03T05:56:42.027Z",
         more_than_4: true,
@@ -2993,6 +3015,7 @@ const data = [{
         _id: "5fc87fe0b879634230642919",
         phone_link: "https://www.daraz.com.bd/products/realme-7-pro-8gb-ram-128gb-rom-i150674019-s1077334817.html",
         phone_title: "Realme 7 Pro",
+        displaySize: 6.4,
         phone_details: {
             model: "Realme 7 Pro",
             released: "2020, September 14",
@@ -3012,6 +3035,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 25990,
+        battery_capacity: 4500,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3052,6 +3076,7 @@ const data = [{
         _id: "5fef096dcbd9900017c73362",
         phone_link: "https://www.daraz.com.bd/products/realme-c15-4gb-ram64gb-rom-6000-mah-battery-18w-quick-charge-ultra-wide-quad-camera-i154354145-s1083430642.html",
         phone_title: "Realme C15",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C15",
             released: "2020, July 28",
@@ -3071,6 +3096,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 12990,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3106,8 +3132,6 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
         high_refresh_rate: true,
         display_res_hd: true,
         display_res_fhd: false,
@@ -3119,6 +3143,7 @@ const data = [{
         _id: "5fef09facbd9900017c73363",
         phone_link: "https://www.daraz.com.bd/products/realme-7i-8gb-ram-128-rom-64-mp-quad-camera-i150668447-s1077470627.html",
         phone_title: "Realme 7i",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme 7i",
             released: "2020, September 18",
@@ -3138,6 +3163,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 18990,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3171,8 +3197,6 @@ const data = [{
 
         gaming: true,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -3181,6 +3205,7 @@ const data = [{
         _id: "5fef1f3c71a30b0017af7884",
         phone_link: "https://www.daraz.com.bd/products/realme-narzo-20-i166138912-s1099708086.html",
         phone_title: "Realme Narzo 20",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme Narzo 20",
             released: "2020, September 28",
@@ -3200,6 +3225,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 13490,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3236,10 +3262,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2021-01-03T10:49:49.570Z",
         more_than_4: true,
         less_than_4: false,
@@ -3248,6 +3270,7 @@ const data = [{
         _id: "5ff1b1355feddc00179b3aba",
         phone_link: "https://bikroy.com/bn/ad/vivo-y50-used-for-sale-dhaka-85",
         phone_title: "Vivo Y50",
+        displaySize: 6.53,
         phone_details: {
             model: "vivo Y50",
             released: "2020, April 12",
@@ -3267,6 +3290,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 17500,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Personal",
         ad_category: "Bikroy.com",
@@ -3303,10 +3327,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2021-01-03T10:49:49.570Z",
         more_than_4: true,
         less_than_4: false,
@@ -3315,6 +3335,7 @@ const data = [{
         _id: "5ff1b5a15feddc00179b3abc",
         phone_link: "https://bikroy.com/bn/ad/vivo-y50-8-128gb-used-for-sale-dhaka-19",
         phone_title: "Vivo Y50",
+        displaySize: 6.53,
         phone_details: {
             model: "vivo Y50",
             released: "2020, April 12",
@@ -3334,6 +3355,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 16999,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -3374,6 +3396,7 @@ const data = [{
         _id: "5ff1bf1a5feddc00179b3ac1",
         phone_link: "https://www.pickaboo.com/vivo-y20-4gb-64gb.html",
         phone_title: "Vivo Y20",
+        displaySize: 6.51,
         phone_details: {
             model: "vivo Y20",
             released: "2020, August 28",
@@ -3393,6 +3416,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, proximity",
         },
         phone_price: 14990,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3430,8 +3454,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
         high_refresh_rate: true,
         display_res_hd: false,
 
@@ -3443,6 +3465,7 @@ const data = [{
         _id: "5ff1cb5b5feddc00179b3ac6",
         phone_link: "https://www.daraz.com.bd/products/realme-6-8gb-ram-128gb-rom-i133210201-s1054764369.html",
         phone_title: "Realme 6",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme 6",
             released: "2020, March 11",
@@ -3462,6 +3485,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 22334,
+        battery_capacity: 4300,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3491,8 +3515,6 @@ const data = [{
 
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -3504,6 +3526,7 @@ const data = [{
         _id: "5ff1cbde5feddc00179b3ac7",
         phone_link: "https://www.daraz.com.bd/products/realme-c17-6gb-128gb-smartphone-i144890330-s1069830222.html",
         phone_title: "Realme C17",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C17",
             released: "2020, September 22",
@@ -3523,6 +3546,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 15687,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3559,9 +3583,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-03T10:49:49.570Z",
         more_than_4: true,
@@ -3571,6 +3593,7 @@ const data = [{
         _id: "5ff1ccf25feddc00179b3ac8",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-m21-6gb-ram128-gb-rom-64-super-amoled-display-triple-camera-6000-mah-battery-i132296392-s1053206489.html",
         phone_title: "Samsung Galaxy M21",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M21",
             released: "2020, March 23",
@@ -3590,6 +3613,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 19999,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3628,13 +3652,12 @@ const data = [{
         moderate_usage: true,
         heavy_usage: false,
 
-
-
         added: "2021-01-03T10:49:49.570Z",
 
         _id: "5ff1cd3e5feddc00179b3ac9",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-m21-4gb-ram64gb-rom-64-super-amoled-display-triple-camera-6000-mah-battery-i132288505-s1053210381.html",
         phone_title: "Samsung Galaxy M21",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M21",
             released: "2020, March 23",
@@ -3654,6 +3677,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 18999,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3697,6 +3721,7 @@ const data = [{
         _id: "5ff1cdbd5feddc00179b3aca",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-a01-2gb-ram16gb-rom-57-display-13mp-dual-camera-3000-mah-battery-i137952536-s1060710609.html",
         phone_title: "Samsung Galaxy A01",
+        displaySize: 5.7,
         phone_details: {
             model: "Samsung Galaxy A01",
             released: "2020, January",
@@ -3716,6 +3741,7 @@ const data = [{
             sensors: "Accelerometer, proximity",
         },
         phone_price: 9724,
+        battery_capacity: 3000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3752,9 +3778,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-03T15:40:16.194Z",
         more_than_4: true,
@@ -3764,6 +3788,7 @@ const data = [{
         _id: "5ff1e5cb256dbe0017f1ee9f",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-a51-android-10-one-ui-6gb128gb-quad-camera-48mp-camera-i127892865-s1047828958.html",
         phone_title: "Samsung Galaxy A51",
+        displaySize: 6.5,
         phone_details: {
             model: "Samsung Galaxy A51",
             released: "2019, December 16",
@@ -3783,6 +3808,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 27499,
+        battery_capacity: 4000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3826,6 +3852,7 @@ const data = [{
         _id: "5ff1e636256dbe0017f1eea0",
         phone_link: "https://www.daraz.com.bd/products/galaxy-m01s-3gb-ram-32gb-rom-i154352810-s1083450220.html",
         phone_title: "Samsung Galaxy M01s",
+        displaySize: 6.2,
         phone_details: {
             model: "Samsung Galaxy M01s",
             released: "2020, July 16",
@@ -3845,6 +3872,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity",
         },
         phone_price: 12075,
+        battery_capacity: 4000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3888,6 +3916,7 @@ const data = [{
         _id: "5ff1e68b256dbe0017f1eea1",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-m11-3gb-ram32gb-rom-64-hdtft-display-13mp-triple-camera-5000-mah-battery-i132570187-s1053654166.html",
         phone_title: "Samsung Galaxy M11",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M11",
             released: "2020, May 4",
@@ -3907,6 +3936,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity",
         },
         phone_price: 14648,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -3944,9 +3974,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-03T15:40:16.194Z",
         more_than_4: true,
@@ -3956,6 +3984,7 @@ const data = [{
         _id: "5ff1e6f8256dbe0017f1eea2",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-m51-8gb-ram128gb-rom-snapdragon-730g-7000-mah-battery-i154354719-s1083446278.html",
         phone_title: "Samsung Galaxy M51",
+        displaySize: 6.7,
         phone_details: {
             model: "Samsung Galaxy M51",
             released: "2020, September 11",
@@ -3975,6 +4004,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 34787,
+        battery_capacity: 7000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4012,9 +4042,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-03T15:40:16.194Z",
         more_than_4: true,
@@ -4024,6 +4052,7 @@ const data = [{
         _id: "5ff1e74e256dbe0017f1eea3",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-a71-android-100-one-ui-2-8gb128gb-quad-camera-64mp-camera-i127910604-s1047868561.html",
         phone_title: "Samsung Galaxy A71",
+        displaySize: 6.7,
         phone_details: {
             model: "Samsung Galaxy A71",
             released: "2020, January 17",
@@ -4043,6 +4072,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 33821,
+        battery_capacity: 4500,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4079,9 +4109,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-03T15:40:16.194Z",
         more_than_4: true,
@@ -4091,6 +4119,7 @@ const data = [{
         _id: "5ff1e7b0256dbe0017f1eea4",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-m31-android-10-one-ui-6gb-64gb-quad-camera-64mp-camera-i131554848-s1051838373.html",
         phone_title: "Samsung Galaxy M31",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M31",
             released: "2020, March 05",
@@ -4110,6 +4139,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 23331,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4146,9 +4176,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-03T15:40:16.194Z",
         more_than_4: true,
@@ -4158,6 +4186,7 @@ const data = [{
         _id: "5ff1e81b256dbe0017f1eea5",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-a31-6gb-ram128gb-rom-64-fhdsamoled-infinity-u-display-5000-mah-battery15w-fast-charging-i132798535-s1054008982.html",
         phone_title: "Samsung Galaxy A31",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy A31",
             released: "2020, April 27",
@@ -4177,6 +4206,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 23999,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4220,6 +4250,7 @@ const data = [{
         _id: "5ff1e86e256dbe0017f1eea6",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-m01-3gb-ram32gb-rom-infinity-v-display-4000-mah-battery-i133058235-s1054496322.html",
         phone_title: "Samsung Galaxy M01",
+        displaySize: 5.7,
         phone_details: {
             model: "Samsung Galaxy M01",
             released: "2020, June 02",
@@ -4239,6 +4270,7 @@ const data = [{
             sensors: "Accelerometer, proximity",
         },
         phone_price: 11499,
+        battery_capacity: 4000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4276,9 +4308,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-03T15:40:16.194Z",
         more_than_4: true,
@@ -4288,6 +4318,7 @@ const data = [{
         _id: "5ff1e8d7256dbe0017f1eea7",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-m31-8gb-ram128gb-rom-64-samoled-fhdinfinity-u-display-exynos-9611-soc-processor-6000-mah-battery-i132944239-s1054264085.html",
         phone_title: "Samsung Galaxy M31",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M31",
             released: "2020, March 05",
@@ -4307,6 +4338,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 27227,
+        battery_capacity: 6000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4344,9 +4376,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-03T15:40:16.194Z",
         more_than_4: true,
@@ -4356,6 +4386,7 @@ const data = [{
         _id: "5ff1e941256dbe0017f1eea8",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-m40-smartphone-63-6gb-ram-128gb-rom-32mp-camera-i112778539-s1029822754.html",
         phone_title: "Samsung Galaxy M40",
+        displaySize: 6.3,
         phone_details: {
             model: "Samsung Galaxy M40",
             released: "2019, June",
@@ -4375,6 +4406,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 24490,
+        battery_capacity: 3500,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4389,11 +4421,7 @@ const data = [{
         __v: 0,
     },
     {
-        speciality: [
-            "Excellent back camera",
-            "Great for taking selfies",
-            "Sufficient RAM and Storage",
-        ],
+        speciality: ["Excellent back camera", "Great for taking selfies", "Sufficient RAM and Storage"],
         phone_images: [
             "https://res.cloudinary.com/towfiqu/image/upload/fl_progressive:steep/v1609692346/masterdeals_v_2.0/ue12sxgy9onmehiuiycf.jpg",
             "https://res.cloudinary.com/towfiqu/image/upload/fl_progressive:steep/v1609692348/masterdeals_v_2.0/xdck3iwffhrhwdqk4gto.jpg",
@@ -4420,6 +4448,7 @@ const data = [{
         _id: "5ff1f5b34addba0017d2e8b3",
         phone_link: "https://www.daraz.com.bd/products/samsung-galaxy-a21s-smartphone-4gb-ram64gb-rom-48mp-quad-camera-5000-mah-battery-i145810489-s1071258185.html",
         phone_title: "Samsung Galaxy A21s",
+        displaySize: 6.5,
         phone_details: {
             model: "Samsung Galaxy A21s",
             released: "2020, June 02",
@@ -4439,6 +4468,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 16604,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4476,8 +4506,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
         high_refresh_rate: true,
         display_res_hd: false,
 
@@ -4489,6 +4517,7 @@ const data = [{
         _id: "5ff2fd8af704e10017e9df8a",
         phone_link: "https://www.daraz.com.bd/products/poco-x3-nfc-smartphone-6gb-ram64gb-rom-i159462995-s1091090655.html",
         phone_title: "POCO X3 NFX",
+        displaySize: 6.67,
         phone_details: {
             model: "Xiaomi Poco X3 NFC",
             released: "2020, September 08",
@@ -4508,6 +4537,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 25999,
+        battery_capacity: 5160,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4551,6 +4581,7 @@ const data = [{
         _id: "5ff31249a6289f0017bc2faf",
         phone_link: "https://www.daraz.com.bd/products/poco-c3-3gb-ram-32gb-rom-i164476250-s1097238612.html",
         phone_title: "Poco C3",
+        displaySize: 6.6,
         phone_details: {
             model: "Xiaomi Poco C3",
             released: "2020, October 16",
@@ -4570,6 +4601,7 @@ const data = [{
             sensors: "Accelerometer, proximity",
         },
         phone_price: 11999,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4606,10 +4638,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2021-01-04T13:01:25.412Z",
         more_than_4: true,
         less_than_4: false,
@@ -4618,6 +4646,7 @@ const data = [{
         _id: "5ff312c6a6289f0017bc2fb0",
         phone_link: "https://www.daraz.com.bd/products/redmi-note-9-pro-6gb-ram128gb-rom-667-display-48mp-quad-camera-5020-mah-battery-i138166940-s1060954785.html",
         phone_title: "Redmi Note 9 Pro",
+        displaySize: 6.67,
         phone_details: {
             model: "Xiaomi Redmi Note 9 Pro",
             released: "2020, May 05",
@@ -4637,6 +4666,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 27999,
+        battery_capacity: 5020,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4673,10 +4703,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2021-01-04T15:28:25.991Z",
         more_than_4: false,
         less_than_4: false,
@@ -4685,6 +4711,7 @@ const data = [{
         _id: "5ff334bc83663800176398e8",
         phone_link: "https://www.daraz.com.bd/products/redmi-note-9-4gb-ram128gb-rom-48mp-quad-camera-hotshot-5020-mah-battery-i133102703-s1054602852.html",
         phone_title: "Redmi Note 9",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi Note 9",
             released: "2020, May 12",
@@ -4704,6 +4731,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 19999,
+        battery_capacity: 5020,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4718,11 +4746,7 @@ const data = [{
         __v: 0,
     },
     {
-        speciality: [
-            "Excellent back camera",
-            "Great for taking selfies",
-            "Sufficient RAM and Storage",
-        ],
+        speciality: ["Excellent back camera", "Great for taking selfies", "Sufficient RAM and Storage"],
         phone_images: [
             "https://res.cloudinary.com/towfiqu/image/upload/fl_progressive:steep/v1605600004/masterdeals_v_2.0/x1zufblfwhpil4kecs6o.jpg",
             "https://res.cloudinary.com/towfiqu/image/upload/fl_progressive:steep/v1605600005/masterdeals_v_2.0/dpsdhj31qjli1eu32z2w.jpg",
@@ -4752,6 +4776,7 @@ const data = [{
         _id: "5ff335af83663800176398e9",
         phone_link: "https://www.daraz.com.bd/products/redmi-y3-smartphone-626-3gb-ram-32gb-rom-32mp-selfie-camera-prime-black-i106372366-s1021364304.html",
         phone_title: "Redmi Y3",
+        displaySize: 6.26,
         phone_details: {
             model: "Xiaomi Redmi Y3",
             released: "2019, April",
@@ -4771,6 +4796,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 15426,
+        battery_capacity: 4000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4807,10 +4833,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2021-01-04T15:28:25.991Z",
         more_than_4: true,
         less_than_4: false,
@@ -4819,6 +4841,7 @@ const data = [{
         _id: "5ff336c683663800176398ea",
         phone_link: "https://www.daraz.com.bd/products/huawei-nova-7i-smartphone-8gb-ram-128gb-rom-48-mp-camera-i133288683-s1054926875.html",
         phone_title: "Huawei Nova 7i",
+        displaySize: 6.4,
         phone_details: {
             model: "Huawei nova 7i",
             released: "2020, February 14",
@@ -4838,6 +4861,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, proximity, compass",
         },
         phone_price: 29999,
+        battery_capacity: 4200,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4874,9 +4898,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-04T15:28:25.991Z",
         more_than_4: true,
@@ -4886,6 +4908,7 @@ const data = [{
         _id: "5ff337d183663800176398eb",
         phone_link: "https://www.daraz.com.bd/products/oppo-f17-pro-smartphone-8gb128gb-i156920405-s1086970826.html",
         phone_title: "Oppo F17 Pro",
+        displaySize: 6.43,
         phone_details: {
             model: "Oppo F17 Pro",
             released: "2020, September 07",
@@ -4905,6 +4928,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 27990,
+        battery_capacity: 4015,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -4948,6 +4972,7 @@ const data = [{
         _id: "5ff3385f83663800176398ec",
         phone_link: "https://www.daraz.com.bd/products/oppo-a31-4gb-ram-128gb-rom-i133170921-s1054708775.html",
         phone_title: "Oppo A31",
+        displaySize: 6.5,
         phone_details: {
             model: "Oppo A31",
             released: "2020, February 14",
@@ -4967,6 +4992,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 15990,
+        battery_capacity: 4230,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5004,9 +5030,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-04T15:28:25.991Z",
         more_than_4: true,
@@ -5016,6 +5040,7 @@ const data = [{
         _id: "5ff338ff83663800176398ed",
         phone_link: "https://www.daraz.com.bd/products/oppo-f17-8128-gb-sultan-branded-t-shirt-combo-box-i149610097-s1075946701.html",
         phone_title: "Oppo F17",
+        displaySize: 6.44,
         phone_details: {
             model: "Oppo F17",
             released: "2020, September 24",
@@ -5035,6 +5060,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 22990,
+        battery_capacity: 4015,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5076,6 +5102,7 @@ const data = [{
         _id: "5ff339a783663800176398ee",
         phone_link: "https://www.daraz.com.bd/products/infinix-hot-9-play-4gb-ram-64gb-rom-i133286883-s1054926946.html",
         phone_title: "Infinix Hot 9 Play",
+        displaySize: 6.82,
         phone_details: {
             model: "Infinix Hot 9 Play",
             released: "2020, April 09",
@@ -5095,6 +5122,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 9990,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5142,6 +5170,7 @@ const data = [{
         _id: "5ff33b6783663800176398f0",
         phone_link: "https://www.daraz.com.bd/products/infinix-hot-10-smartphone-4128-gb-g70-gaming-processor-i163744526-s1097134447.html",
         phone_title: "Infinix Hot 10",
+        displaySize: 6.78,
         phone_details: {
             model: "Infinix Hot 10",
             released: "2020, October 17",
@@ -5161,6 +5190,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 12924,
+        battery_capacity: 5200,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5197,10 +5227,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2021-01-04T15:28:25.991Z",
         more_than_4: true,
         less_than_4: false,
@@ -5209,6 +5235,7 @@ const data = [{
         _id: "5ff33d0183663800176398f2",
         phone_link: "https://www.daraz.com.bd/products/motorola-g9-plus-6gb-ram128gb-rom-snapdragon-730g-64mp-quad-camera-68-fhdhdr10-display-i163334947-s1095792975.html",
         phone_title: "Motorola G9 Plus",
+        displaySize: 6.81,
         phone_details: {
             model: "Motorola Moto G9 Plus",
             released: "2020, September 07",
@@ -5228,6 +5255,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, gyro, proximity",
         },
         phone_price: 26939,
+        battery_capacity: 5000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5257,8 +5285,6 @@ const data = [{
 
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -5270,6 +5296,7 @@ const data = [{
         _id: "5ff33e2983663800176398f4",
         phone_link: "https://www.daraz.com.bd/products/motorola-g9-play-4gb-ram128gb-rom-snapdragon-662-48mp-triple-camera-5000-mah-battery-i154350576-s1083436819.html",
         phone_title: "Motorola G9 Play",
+        displaySize: 6.5,
         phone_details: {
             model: "Motorola Moto G9 Play",
             released: "2020, August 28",
@@ -5289,6 +5316,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity",
         },
         phone_price: 16999,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5333,6 +5361,7 @@ const data = [{
         _id: "5ff454d2333c960017ecb1c6",
         phone_link: "https://www.pickaboo.com/samsung-galaxy-m01-core-1gb-16gb.html",
         phone_title: "Samsung Galaxy M01 Core",
+        displaySize: 5.3,
         phone_details: {
             model: "Samsung Galaxy M01 Core",
             released: "2020, July 29",
@@ -5352,6 +5381,7 @@ const data = [{
             sensors: "Accelerometer",
         },
         phone_price: 6999,
+        battery_capacity: 3000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5388,15 +5418,14 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-05T11:55:18.241Z",
 
         _id: "5ff45583333c960017ecb1c8",
         phone_link: "https://www.pickaboo.com/samsung-galaxy-m21-4gb-64gb.html",
         phone_title: "Samsung Galaxy M21",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M21",
             released: "2020, March 23",
@@ -5416,6 +5445,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 17049,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5451,9 +5481,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-05T11:55:18.241Z",
         more_than_4: true,
@@ -5463,6 +5491,7 @@ const data = [{
         _id: "5ff455d0333c960017ecb1c9",
         phone_link: "https://www.pickaboo.com/samsung-galaxy-m21-6gb-128gb.html",
         phone_title: "Samsung Galaxy M21",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M21",
             released: "2020, March 23",
@@ -5482,6 +5511,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 18949,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5518,9 +5548,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-05T11:55:18.241Z",
         more_than_4: true,
@@ -5530,6 +5558,7 @@ const data = [{
         _id: "5ff45633333c960017ecb1ca",
         phone_link: "https://www.pickaboo.com/samsung-m31-8gb-128gb.html",
         phone_title: "Samsung Galaxy M31",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M31",
             released: "2020, March 05",
@@ -5549,6 +5578,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 24499,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5586,9 +5616,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-05T11:55:18.241Z",
         more_than_4: true,
@@ -5598,6 +5626,7 @@ const data = [{
         _id: "5ff45692333c960017ecb1cb",
         phone_link: "https://www.pickaboo.com/samsung-galaxy-a71.html",
         phone_title: "Samsung Galaxy A71",
+        displaySize: 6.7,
         phone_details: {
             model: "Samsung Galaxy A71",
             released: "2020, January 17",
@@ -5617,6 +5646,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 32499,
+        battery_capacity: 4500,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5654,9 +5684,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-05T11:55:18.241Z",
         more_than_4: true,
@@ -5666,6 +5694,7 @@ const data = [{
         _id: "5ff457b8333c960017ecb1cd",
         phone_link: "https://www.pickaboo.com/samsung-galaxy-note10-lite.html",
         phone_title: "Samsung Galaxy Note 10 Lite",
+        displaySize: 6.7,
         phone_details: {
             model: "Samsung Galaxy Note10 Lite",
             released: "2020, January 21",
@@ -5685,6 +5714,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 47499,
+        battery_capacity: 4500,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5728,6 +5758,7 @@ const data = [{
         _id: "5ff462e1333c960017ecb1d1",
         phone_link: "https://www.pickaboo.com/oppo-a15-3gb-32gb.html",
         phone_title: "Oppo A15",
+        displaySize: 6.52,
         phone_details: {
             model: "Oppo A15",
             released: "2020, October 27",
@@ -5747,6 +5778,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity",
         },
         phone_price: 12089,
+        battery_capacity: 4230,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5790,6 +5822,7 @@ const data = [{
         _id: "5ff4639b333c960017ecb1d3",
         phone_link: "https://www.pickaboo.com/oppo-a12-3gb-32gb.html",
         phone_title: "Oppo A12",
+        displaySize: 6.22,
         phone_details: {
             model: "Oppo A12",
             released: "2020, April 20",
@@ -5809,6 +5842,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 10299,
+        battery_capacity: 4230,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5846,9 +5880,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-05T14:19:31.465Z",
         more_than_4: true,
@@ -5858,6 +5890,7 @@ const data = [{
         _id: "5ff475fea419ad0017e3722e",
         phone_link: "https://www.pickaboo.com/vivo-v20-8gb-128gb.html",
         phone_title: "Vivo V20",
+        displaySize: 6.44,
         phone_details: {
             model: "vivo V20",
             released: "2020, October 19",
@@ -5877,6 +5910,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 32990,
+        battery_capacity: 4000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5920,6 +5954,7 @@ const data = [{
         _id: "5ff47842a419ad0017e37232",
         phone_link: "https://www.pickaboo.com/realme-c11-2gb-32gb.html",
         phone_title: "Realme C11",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C11",
             released: "2020, July 07",
@@ -5939,6 +5974,7 @@ const data = [{
             sensors: "Accelerometer, proximity, compass",
         },
         phone_price: 8549,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -5982,6 +6018,7 @@ const data = [{
         _id: "5ff478fea419ad0017e37234",
         phone_link: "https://www.pickaboo.com/poco-c3-3gb-32gb.html",
         phone_title: "POCO C3",
+        displaySize: 6.43,
         phone_details: {
             model: "Xiaomi Poco C3",
             released: "2020, October 16",
@@ -6001,6 +6038,7 @@ const data = [{
             sensors: "Accelerometer, proximity",
         },
         phone_price: 11519,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6038,9 +6076,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-05T14:19:31.465Z",
         more_than_4: true,
@@ -6050,6 +6086,7 @@ const data = [{
         _id: "5ff47a5ca419ad0017e37236",
         phone_link: "https://gadgetandgear.com/product/galaxy-a71",
         phone_title: "Samsung Galaxy A71",
+        displaySize: 6.7,
         phone_details: {
             model: "Samsung Galaxy A71",
             released: "2020, January 17",
@@ -6069,6 +6106,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 34999,
+        battery_capacity: 4500,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6106,9 +6144,7 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
-
 
         added: "2021-01-05T14:19:31.465Z",
         more_than_4: true,
@@ -6118,6 +6154,7 @@ const data = [{
         _id: "5ff47adaa419ad0017e37237",
         phone_link: "https://gadgetandgear.com/product/galaxy-m51",
         phone_title: "Samsung Galaxy M51",
+        displaySize: 6.7,
         phone_details: {
             model: "Samsung Galaxy M51",
             released: "2020, September 11",
@@ -6137,6 +6174,7 @@ const data = [{
             sensors: "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 35999,
+        battery_capacity: 7000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6180,6 +6218,7 @@ const data = [{
         _id: "5ff47ba0a419ad0017e37238",
         phone_link: "https://gadgetandgear.com/product/galaxy-m01s",
         phone_title: "Samsung Galaxy M01s",
+        displaySize: 6.2,
         phone_details: {
             model: "Samsung Galaxy M01s",
             released: "2020, July 16",
@@ -6199,6 +6238,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity",
         },
         phone_price: 12499,
+        battery_capacity: 4000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6235,9 +6275,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-05T14:19:31.465Z",
         more_than_4: true,
@@ -6247,6 +6285,7 @@ const data = [{
         _id: "5ff47c93a419ad0017e37239",
         phone_link: "https://gadgetandgear.com/product/huawei-y8p",
         phone_title: "Huawei Y8p",
+        displaySize: 6.3,
         phone_details: {
             model: "Huawei Y8p",
             released: "2020, June 15",
@@ -6266,6 +6305,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, proximity, compass",
         },
         phone_price: 25499,
+        battery_capacity: 4000,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6300,10 +6340,6 @@ const data = [{
 
         gaming: true,
 
-
-
-
-
         added: "2021-01-05T14:19:31.465Z",
         more_than_4: true,
         less_than_4: false,
@@ -6312,6 +6348,7 @@ const data = [{
         _id: "5ff47d34a419ad0017e3723a",
         phone_link: "https://gadgetandgear.com/product/poco-m2",
         phone_title: "POCO M2",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Poco M2",
             released: "2020, September 15",
@@ -6331,6 +6368,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 15999,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6369,7 +6407,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
         display_amoled: true,
         high_refresh_rate: true,
         display_res_hd: false,
@@ -6382,6 +6419,7 @@ const data = [{
         _id: "5ff47e45a419ad0017e3723c",
         phone_link: "https://gadgetandgear.com/product/oneplus-8-pro",
         phone_title: "OnePlus 8 Pro",
+        displaySize: 6.7,
         phone_details: {
             model: "OnePlus 8 Pro",
             released: "2020, April 21",
@@ -6401,6 +6439,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 94990,
+        battery_capacity: 4510,
         _budget: "High Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6444,6 +6483,7 @@ const data = [{
         _id: "5ff47edca419ad0017e3723d",
         phone_link: "https://gadgetandgear.com/product/oppo-a15",
         phone_title: "Oppo A15",
+        displaySize: 6.5,
         phone_details: {
             model: "Oppo A15",
             released: "2020, October 27",
@@ -6463,6 +6503,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity",
         },
         phone_price: 12990,
+        battery_capacity: 4230,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6506,6 +6547,7 @@ const data = [{
         _id: "5ff47f9fa419ad0017e3723e",
         phone_link: "https://gadgetandgear.com/product/vivo-y12",
         phone_title: "Vivo Y12",
+        displaySize: 6.35,
         phone_details: {
             model: "vivo Y12",
             released: "2019, June",
@@ -6525,6 +6567,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 14990,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6568,6 +6611,7 @@ const data = [{
         _id: "5ff48079a419ad0017e3723f",
         phone_link: "https://gadgetandgear.com/product/realme-c11",
         phone_title: "Realme C11",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C11",
             released: "2020, July 07",
@@ -6587,6 +6631,7 @@ const data = [{
             sensors: "Accelerometer, proximity, compass",
         },
         phone_price: 8990,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6616,8 +6661,6 @@ const data = [{
 
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -6626,6 +6669,7 @@ const data = [{
         _id: "5ff480fba419ad0017e37240",
         phone_link: "https://gadgetandgear.com/product/realme-c15",
         phone_title: "Realme C15",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C15",
             released: "2020, July 28",
@@ -6645,6 +6689,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 12990,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6680,8 +6725,6 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
         high_refresh_rate: true,
         display_res_hd: true,
         display_res_fhd: false,
@@ -6693,6 +6736,7 @@ const data = [{
         _id: "5ff48171a419ad0017e37241",
         phone_link: "https://gadgetandgear.com/product/realme-7i",
         phone_title: "Realme 7i",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme 7i",
             released: "2020, September 18",
@@ -6712,6 +6756,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 18990,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6745,8 +6790,6 @@ const data = [{
 
         gaming: true,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -6755,6 +6798,7 @@ const data = [{
         _id: "5ff481dda419ad0017e37242",
         phone_link: "https://gadgetandgear.com/product/realme-narzo-20",
         phone_title: "Realme Narzo 20",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme Narzo 20",
             released: "2020, September 28",
@@ -6774,6 +6818,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 13990,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "E-commerce",
@@ -6810,15 +6855,12 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
 
         _id: "5ff59f5344e66f001799de46",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-note-94-64dhaamaakaaaphaar-new-for-sale-dhaka",
         phone_title: "Redmi Note 9",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi Note 9",
             released: "2020, May 12",
@@ -6838,6 +6880,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 14990,
+        battery_capacity: 5020,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -6868,8 +6911,6 @@ const data = [{
         taking_photos: false,
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -6878,6 +6919,7 @@ const data = [{
         _id: "5ff5a1ea44e66f001799de47",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-7-4-64-gb-full-box-new-for-sale-dhaka",
         phone_title: "Redmi 7",
+        displaySize: 6.26,
         phone_details: {
             model: "Xiaomi Redmi 7",
             released: "2019, March 20",
@@ -6897,6 +6939,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 10499,
+        battery_capacity: 4000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -6932,15 +6975,12 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
 
         _id: "5ff5a3c744e66f001799de4a",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-note-7-464-48mp-camera-new-for-sale-dhaka-2",
         phone_title: "Redmi Note 7",
+        displaySize: 6.3,
         phone_details: {
             model: "Xiaomi Redmi Note 7",
             released: "2019, February 28",
@@ -6960,6 +7000,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 10990,
+        battery_capacity: 4000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -6994,15 +7035,12 @@ const data = [{
 
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
 
         _id: "5ff5a47044e66f001799de4b",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-9-4-64gb-intglobal-new-for-sale-dhaka",
         phone_title: "Redmi 9",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi 9",
             released: "2020, June 10",
@@ -7022,6 +7060,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 13490,
+        battery_capacity: 5020,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7058,10 +7097,6 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
         more_than_4: true,
         less_than_4: false,
@@ -7070,6 +7105,7 @@ const data = [{
         _id: "5ff5a4ed44e66f001799de4c",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-note-7-pro-6gb-ram-and-128gb-rom-new-for-sale-dhaka-1",
         phone_title: "Redmi Note 7 Pro",
+        displaySize: 6.3,
         phone_details: {
             model: "Xiaomi Redmi Note 7 Pro",
             released: "2019, March 18",
@@ -7089,6 +7125,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 13990,
+        battery_capacity: 4000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7118,8 +7155,6 @@ const data = [{
 
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -7128,6 +7163,7 @@ const data = [{
         _id: "5ff5a56344e66f001799de4d",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-764gb-new-year-50-percent-of-new-for-sale-dhaka",
         phone_title: "Redmi 7",
+        displaySize: 6.2,
         phone_details: {
             model: "Xiaomi Redmi 7",
             released: "2019, March 20",
@@ -7147,6 +7183,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 9850,
+        battery_capacity: 4000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7181,15 +7218,12 @@ const data = [{
 
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
 
         _id: "5ff5a5c344e66f001799de4e",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-9-4-64-dhaamaakaa-aphaar-new-for-sale-dhaka",
         phone_title: "Redmi 9",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi 9",
             released: "2020, June 10",
@@ -7209,6 +7243,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 11990,
+        battery_capacity: 5020,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7243,15 +7278,12 @@ const data = [{
 
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
 
         _id: "5ff5a6b944e66f001799de50",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-9-4gb-64gb-global-new-for-sale-dhaka-1",
         phone_title: "Redmi 9",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi 9",
             released: "2020, June 10",
@@ -7271,6 +7303,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 13200,
+        battery_capacity: 5020,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7306,15 +7339,12 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
 
         _id: "5ff5a74444e66f001799de51",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-note-7-new-condition4-64gb-new-for-sale-dhaka",
         phone_title: "Redmi Note 7",
+        displaySize: 6.3,
         phone_details: {
             model: "Xiaomi Redmi Note 7",
             released: "2019, February 28",
@@ -7334,6 +7364,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 12990,
+        battery_capacity: 4000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7368,10 +7399,6 @@ const data = [{
 
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
         more_than_4: true,
         less_than_4: false,
@@ -7380,6 +7407,7 @@ const data = [{
         _id: "5ff5ab8f44e66f001799de54",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-poco-m2-new-for-sale-dhaka-19",
         phone_title: "POCO M2",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Poco M2",
             released: "2020, September 15",
@@ -7399,6 +7427,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 14800,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7433,10 +7462,6 @@ const data = [{
 
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
         more_than_4: true,
         less_than_4: false,
@@ -7445,6 +7470,7 @@ const data = [{
         _id: "5ff5ac8e44e66f001799de55",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-poco-m2-6-128gb-global-new-for-sale-dhaka-13",
         phone_title: "POCO M2",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Poco M2",
             released: "2020, September 15",
@@ -7464,6 +7490,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 14690,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7498,15 +7525,12 @@ const data = [{
 
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
 
         _id: "5ff5ad9e44e66f001799de57",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-9-prime-new-for-sale-dhaka-16",
         phone_title: "Redmi 9 Prime",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi 9 Prime",
             released: "2020, August 06",
@@ -7526,6 +7550,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 12500,
+        battery_capacity: 5020,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7560,10 +7585,6 @@ const data = [{
 
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
         more_than_4: true,
         less_than_4: false,
@@ -7572,6 +7593,7 @@ const data = [{
         _id: "5ff5ae0e44e66f001799de58",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-poco-m2-6-64gb-all-colour-new-for-sale-dhaka",
         phone_title: "POCO M2",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Poco M2",
             released: "2020, September 15",
@@ -7592,6 +7614,7 @@ const data = [{
         },
         phone_price: 13500,
         _budget: "Mid Budget",
+        battery_capacity: 5000,
         ad_type: "Business",
         ad_category: "Bikroy.com",
         ad_priority: "Normal",
@@ -7627,15 +7650,12 @@ const data = [{
         taking_photos: true,
         gaming: true,
 
-
-
-
-
         added: "2021-01-06T11:17:52.244Z",
 
         _id: "5ff5ae6844e66f001799de59",
         phone_link: "https://bikroy.com/bn/ad/xiaomi-redmi-note-9-new-for-sale-dhaka-93",
         phone_title: "Redmi Note 9",
+        displaySize: 6.53,
         phone_details: {
             model: "Xiaomi Redmi Note 9",
             released: "2020, May 12",
@@ -7655,6 +7675,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 15000,
+        battery_capacity: 5020,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7688,8 +7709,6 @@ const data = [{
 
         gaming: true,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -7701,6 +7720,7 @@ const data = [{
         _id: "5ff5f5685bb23b0017404658",
         phone_link: "https://bikroy.com/bn/ad/realme-narzo-20-new-for-sale-dhaka-10",
         phone_title: "Realme Narzo 20",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme Narzo 20",
             released: "2020, September 28",
@@ -7720,6 +7740,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 13800,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7767,6 +7788,7 @@ const data = [{
         _id: "5ff71689aacf560017f43f50",
         phone_link: "https://bikroy.com/bn/ad/realme-c3-3-32gb-official-new-for-sale-dhaka-65",
         phone_title: "Realme C3",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C3",
             released: "2020, February 14",
@@ -7786,6 +7808,7 @@ const data = [{
             sensors: "Accelerometer, proximity, compass",
         },
         phone_price: 11500,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7815,8 +7838,6 @@ const data = [{
 
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -7828,6 +7849,7 @@ const data = [{
         _id: "5ff717b3aacf560017f43f53",
         phone_link: "https://bikroy.com/bn/ad/realme-c15-4-128-new-for-sale-dhaka-16",
         phone_title: "Realme C15",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C15 Qualcomm Edition",
             released: "2020, October 29",
@@ -7847,6 +7869,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 13990,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7876,8 +7899,6 @@ const data = [{
 
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -7889,6 +7910,7 @@ const data = [{
         _id: "5ff71876aacf560017f43f55",
         phone_link: "https://bikroy.com/bn/ad/realme-c15-4-128official-new-for-sale-dhaka-9",
         phone_title: "Realme C15",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C15 Qualcomm Edition",
             released: "2020, October 29",
@@ -7908,6 +7930,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 13999,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7937,8 +7960,6 @@ const data = [{
 
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -7947,6 +7968,7 @@ const data = [{
         _id: "5ff71b85aacf560017f43f57",
         phone_link: "https://bikroy.com/bn/ad/realme-narzo-20-intact-official-4-64-new-for-sale-dhaka",
         phone_title: "Realme Narzo 20",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme Narzo 20",
             released: "2020, September 28",
@@ -7966,6 +7988,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 13600,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -7995,8 +8018,6 @@ const data = [{
 
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -8005,6 +8026,7 @@ const data = [{
         _id: "5ff71ec1aacf560017f43f58",
         phone_link: "https://bikroy.com/bn/ad/realme-c15-intact-official-4-64-new-for-sale-dhaka",
         phone_title: "Realme C15",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C15",
             released: "2020, July 28",
@@ -8024,6 +8046,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 12600,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8067,6 +8090,7 @@ const data = [{
         _id: "5ff71f5faacf560017f43f59",
         phone_link: "https://bikroy.com/bn/ad/realme-c12-intact-official-new-for-sale-dhaka-1",
         phone_title: "Realme C12",
+        displaySize: 6.5,
         phone_details: {
             model: "Realme C12",
             released: "2020, August 14",
@@ -8086,6 +8110,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, proximity, compass",
         },
         phone_price: 10700,
+        battery_capacity: 6000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8115,8 +8140,6 @@ const data = [{
 
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -8125,6 +8148,7 @@ const data = [{
         _id: "5ff71fd4aacf560017f43f5a",
         phone_link: "https://bikroy.com/bn/ad/realme-5i-intact-box-new-for-sale-dhaka-1",
         phone_title: "Realme 5i",
+        displaySize: 6.52,
         phone_details: {
             model: "Realme 5i",
             released: "2020, January",
@@ -8144,6 +8168,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 13899,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8180,9 +8205,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-08T05:06:04.540Z",
         more_than_4: true,
@@ -8192,6 +8215,7 @@ const data = [{
         _id: "5ff7eab53f62ef0017455c58",
         phone_link: "https://bikroy.com/bn/ad/vivo-v20-se-new-for-sale-dhaka-10",
         phone_title: "Vivo V20 SE",
+        displaySize: 6.44,
         phone_details: {
             model: "vivo V20 SE",
             released: "2020, October 13",
@@ -8211,6 +8235,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 23800,
+        battery_capacity: 4100,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8255,6 +8280,7 @@ const data = [{
         _id: "5ff7ecb43f62ef0017455c5c",
         phone_link: "https://bikroy.com/bn/ad/samsung-m01-core-new-for-sale-dhaka-89",
         phone_title: "Samsung Galaxy M01 Core",
+        displaySize: 5.3,
         phone_details: {
             model: "Samsung Galaxy M01 Core",
             released: "2020, July 29",
@@ -8274,6 +8300,7 @@ const data = [{
             sensors: "Accelerometer",
         },
         phone_price: 6150,
+        battery_capacity: 3000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8308,8 +8335,6 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
-
         high_refresh_rate: false,
         display_res_hd: true,
         display_res_fhd: false,
@@ -8318,6 +8343,7 @@ const data = [{
         _id: "5ff7ee423f62ef0017455c5f",
         phone_link: "https://bikroy.com/bn/ad/samsung-a21s-4-64gb-new-for-sale-dhaka-51",
         phone_title: "Samsung Galaxy A21s",
+        displaySize: 6.5,
         phone_details: {
             model: "Samsung Galaxy A21s",
             released: "2020, June 02",
@@ -8337,6 +8363,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 14999,
+        battery_capacity: 5000,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8373,9 +8400,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-08T05:06:04.540Z",
         more_than_4: true,
@@ -8385,6 +8410,7 @@ const data = [{
         _id: "5ff7f1833f62ef0017455c61",
         phone_link: "https://bikroy.com/bn/ad/samsung-a31-6-128-gb-new-for-sale-dhaka",
         phone_title: "Samsung Galaxy A31",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy A31",
             released: "2020, April 27",
@@ -8404,6 +8430,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 22800,
+        battery_capacity: 5000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8440,9 +8467,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-08T05:06:04.540Z",
         more_than_4: true,
@@ -8452,6 +8477,7 @@ const data = [{
         _id: "5ff7f4763f62ef0017455c65",
         phone_link: "https://bikroy.com/bn/ad/samsung-a51-8-128gb-new-for-sale-dhaka-3",
         phone_title: "Samsung Galaxy A51",
+        displaySize: 6.5,
         phone_details: {
             model: "Samsung Galaxy A51",
             released: "2019, December 16",
@@ -8471,6 +8497,7 @@ const data = [{
             sensors: "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
         },
         phone_price: 23990,
+        battery_capacity: 4000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8507,9 +8534,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-08T05:06:04.540Z",
         more_than_4: true,
@@ -8519,6 +8544,7 @@ const data = [{
         _id: "5ff7f4c93f62ef0017455c66",
         phone_link: "https://bikroy.com/bn/ad/samsung-m31-8-128gb-official-new-for-sale-dhaka-30",
         phone_title: "Samsung Galaxy M31",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M31",
             released: "2020, March 05",
@@ -8538,6 +8564,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 23490,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8574,9 +8601,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-08T05:06:04.540Z",
         more_than_4: true,
@@ -8586,6 +8611,7 @@ const data = [{
         _id: "5ff7f51e3f62ef0017455c67",
         phone_link: "https://bikroy.com/bn/ad/samsung-m21-official-6-128gb-new-for-sale-dhaka-1",
         phone_title: "Samsung Galaxy M21",
+        displaySize: 6.5,
         phone_details: {
             model: "Samsung Galaxy M21",
             released: "2020, March 23",
@@ -8605,6 +8631,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 18100,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8641,9 +8668,7 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-08T05:06:04.540Z",
         more_than_4: true,
@@ -8653,6 +8678,7 @@ const data = [{
         _id: "5ff7f5753f62ef0017455c68",
         phone_link: "https://bikroy.com/bn/ad/samsung-m318-128-new-for-sale-dhaka-7",
         phone_title: "Samsung Galaxy M31",
+        displaySize: 6.4,
         phone_details: {
             model: "Samsung Galaxy M31",
             released: "2020, March 05",
@@ -8672,6 +8698,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 22499,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8708,15 +8735,14 @@ const data = [{
         taking_photos: true,
         gaming: false,
 
-
         display_amoled: true,
-
 
         added: "2021-01-08T05:06:04.540Z",
 
         _id: "5ff7f6073f62ef0017455c69",
         phone_link: "https://bikroy.com/bn/ad/samsung-galaxy-m21-4gb64gb-new-for-sale-dhaka",
         phone_title: "Samsung Galaxy M21",
+        displaySize: 6.44,
         phone_details: {
             model: "Samsung Galaxy M21",
             released: "2020, March 23",
@@ -8736,6 +8762,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 17300,
+        battery_capacity: 6000,
         _budget: "Mid Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8779,6 +8806,7 @@ const data = [{
         _id: "5ff7f6b73f62ef0017455c6a",
         phone_link: "https://bikroy.com/bn/ad/oppo-a12-332gb-new-for-sale-dhaka-5",
         phone_title: "Oppo A12",
+        displaySize: 6.22,
         phone_details: {
             model: "Oppo A12",
             released: "2020, April 20",
@@ -8798,6 +8826,7 @@ const data = [{
             sensors: "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass",
         },
         phone_price: 10990,
+        battery_capacity: 4230,
         _budget: "Low Budget",
         ad_type: "Business",
         ad_category: "Bikroy.com",
@@ -8813,4 +8842,4 @@ const data = [{
     },
 ];
 
-export default data
+export default data;

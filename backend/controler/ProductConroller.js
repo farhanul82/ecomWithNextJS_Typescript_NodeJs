@@ -1,4 +1,5 @@
 import createError from "http-errors"
+import data from "../data.js"
 import Product from "../models/Product.js"
 
 export const GetAllProducts = async(req, res, next) => {

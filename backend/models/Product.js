@@ -2,6 +2,7 @@ import mongoose from 'mongoose'
 
 const PhoneDetailsSchema = new mongoose.Schema({
     model: { type: String },
+
     released: { type: String },
     displayType: { type: String },
     displaySize: { type: String },
@@ -40,6 +41,8 @@ const ProductSchema = mongoose.Schema({
     phone_link: { type: String },
     phone_title: { type: String },
     phone_price: { type: Number, required: true },
+    battery_capacity: { type: Number, default: 0 },
+    displaySize: { type: Number, default: 0 },
     youtube_embed: { type: String },
     brand: { type: String },
     ram: { type: String },

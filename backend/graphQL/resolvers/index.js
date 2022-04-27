@@ -18,33 +18,49 @@ export const resolvers = {
             console.log('prod', args);
             try {
                 const query = {};
-                if(args.display.length !==0){
-                    query.display = {$in : args.display}
+                if (args.display.length !== 0) {
+                    query['phone_details.displayType'] = { $regex: args.display.join('|'), $options: 'i' }
                 }
 
-                if(args.camera.length !==0){
-                    query.camera = {$in : args.camera}
+                if (args.camera.length !== 0) {
+                    query['phone_details.mainCamera'] = { $regex: args.camera.join('|'), $options: 'i' }
                 }
 
-                if(args.selfieCamera.length !==0){
-                    query.selfieCamera = {$in : args.selfieCamera}
+                if (args.selfieCamera.length !== 0) {
+                    query['phone_details.selfieCamera'] = { $regex: args.selfieCamera.join('|'), $options: 'i' }
                 }
 
-                if(args.storage.length !==0){
-                    query.storage = {$in : args.storage}
+                if (args.storage.length !== 0) {
+                    query.storage = { $in: args.storage }
                 }
 
-                if(args.sensor.length !==0){
-                    query.storage = {$in : args.sensor}
+                if (args.sensor.length !== 0) {
+                    query['phone_details.sensors'] = { $regex: args.sensor.join('|'), $options: 'i' }
                 }
 
-                if(args.newPhone !== '' && args.newPhone === 'Yes'){
+                if (args.newPhone !== '' && args.newPhone === 'Yes') {
                     query.new_phone = true
+                }
+
+                if (args.officialWarranty !== '' && args.officialWarranty === 'Yes') {
+                    query.unofficial_warranty = true
+                }
+
+                if (args.price.minValue !== '0') {
+                    query.phone_price = { "$gte": parseInt(args.price.minValue), "$lte": parseInt(args.price.maxValue) }
+                }
+
+                if (args.size.minValue !== '0') {
+                    query.displaySize = { "$gte": parseInt(args.size.minValue), "$lte": parseInt(args.size.maxValue) }
+                }
+
+                if (args.batteryCapacity.minValue !== '0') {
+                    query.battery_capacity = { "$gte": parseInt(args.batteryCapacity.minValue), "$lte": parseInt(args.batteryCapacity.maxValue) }
                 }
 
                 console.log(query)
                 const products = await Product.find(query);
-                console.log(products.length)
+                console.log('dd', products.length)
                 return products;
             } catch (error) {
                 throw error;
